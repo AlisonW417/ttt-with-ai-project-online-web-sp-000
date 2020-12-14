@@ -3,7 +3,7 @@ module Players
     def move(board)
       if !board.taken?("5")
         "5"
-      elsif 
+      else 
         computer_move(board)
       end 
     end 
