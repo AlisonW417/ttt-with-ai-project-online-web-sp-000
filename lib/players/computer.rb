@@ -3,13 +3,13 @@ module Players
     def move(board)
       if !board.taken?("5")
         "5"
-      elsif board.taken?("5")
+      elsif !board.taken?("1")
         "1"
-      elsif board.taken?("5") && board.taken?("1")
+      elsif !board.taken?("9")
         "9"
-      elsif board.taken?("5") && board.taken?("1") && board.taken?("9")
+      elsif !board.taken?("3")
         "3"
-      elsif board.taken?("5") && board.taken?("1") && board.taken?("9") && board.taken?("3")
+      elsif !board.taken?("5") && board.taken?("1") && board.taken?("9") && board.taken?("3")
         "7"
       elsif board.taken?("5") && board.taken?("1") && board.taken?("9") && board.taken?("3") && board.taken?("7")
         "2"
