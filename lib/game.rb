@@ -50,7 +50,7 @@ class Game
     puts "Please enter a number 1-9:"
     input = current_player.move(board)
     if @board.valid_move?(input)
-      @board.update(user_input, current_player)
+      @board.update(input, current_player)
     else puts "Please enter a number 1-9:"
       @board.display
       turn
