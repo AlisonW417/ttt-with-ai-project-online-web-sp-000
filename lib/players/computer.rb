@@ -15,6 +15,10 @@ module Players
         "2"
       elsif board.taken?("5") && board.taken?("1") && board.taken?("9") && board.taken?("3") && board.taken?("7") && board.taken?("2")
         "4"
+      elsif board.taken?("5") && board.taken?("1") && board.taken?("9") && board.taken?("3") && board.taken?("7") && board.taken?("2") && board.taken?("4")
+        "6"
+      else 
+        "8"
       end 
     end 
     
