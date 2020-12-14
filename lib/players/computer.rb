@@ -9,13 +9,13 @@ module Players
         "9"
       elsif !board.taken?("3")
         "3"
-      elsif !board.taken?("5") && board.taken?("1") && board.taken?("9") && board.taken?("3")
+      elsif !board.taken?("7")
         "7"
-      elsif board.taken?("5") && board.taken?("1") && board.taken?("9") && board.taken?("3") && board.taken?("7")
+      elsif !board.taken?("2")
         "2"
-      elsif board.taken?("5") && board.taken?("1") && board.taken?("9") && board.taken?("3") && board.taken?("7") && board.taken?("2")
+      elsif !board.taken?("4") 
         "4"
-      elsif board.taken?("5") && board.taken?("1") && board.taken?("9") && board.taken?("3") && board.taken?("7") && board.taken?("2") && board.taken?("4")
+      elsif !board.taken?("6")
         "6"
       else 
         "8"
