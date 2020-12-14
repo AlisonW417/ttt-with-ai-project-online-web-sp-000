@@ -11,14 +11,14 @@ module Players
         "3"
       elsif !board.taken?("7")
         "7"
-      elsif !board.taken?("2")
-        "2"
-      elsif !board.taken?("4") 
-        "4"
-      elsif !board.taken?("6")
-        "6"
-      else 
+      elsif !board.taken?("8")
         "8"
+      elsif !board.taken?("2") 
+        "2"
+      elsif !board.taken?("4")
+        "4"
+      else 
+        "6"
       end 
     end 
     
