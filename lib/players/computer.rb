@@ -18,11 +18,11 @@ module Players
       #end 
     #end 
     
-    def computer_move(board)
-      corner(board) || side(board) 
-    end 
+    #def computer_move(board)
+      #corner(board) || side(board) 
+    #end 
     
-    def corner(board)
+    #def corner(board)
      ## if board.taken?("5")
        ## "1"
      ## elsif board.taken?("5") && board.taken?("1")
